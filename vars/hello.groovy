@@ -6,7 +6,7 @@ def call() {
                 steps {
                     script {
                         def z = new org.foo.Zot()
-                        z.checkOutFrom('openstack-cloud-plugin')
+                        z.checkOutFrom('openstack-cloud-plugin.git')
                     }
                 }
             }
